@@ -1,0 +1,165 @@
+body {
+    background-color: #070716;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    /* overflow: hidden; */
+}
+#head1 {
+    color: azure;
+    font-weight: bold;
+    font-size: 60px;
+}
+#head2 {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+header{
+    background-color: #0b1215;
+}
+h1 , h3{
+    text-align: center;
+}
+.menu {
+    position: sticky;
+    top: 0;
+    background-color: #0b1215;
+    padding: 10px 0px 10px 0px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.menu a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+}
+a:link {
+    color: antiquewhite;
+}
+a:visited {
+    color: cyan;
+}
+a:active {
+    color: chartreuse;
+}
+a:hover{
+    color: whitesmoke;
+}
+
+.project1, .project2, .project3 {
+    width: 18%;
+    padding: 20px 30px;
+    border: blue 2px solid;
+    border-radius: 5px;
+}
+img{
+    margin: 40px;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(248, 248, 165);
+    color: aqua;
+    padding-top: 20 px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+address{
+    color: #070716;
+    text-align: left;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-contact > fieldset, .btn {
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+form {
+    display: flex;
+    justify-content: center;
+}
+form > fieldset > legend{
+    text-align: center;
+}
+form > fieldset {
+    margin-bottom: 30px;
+    width: 60%;
+    align-self: center;
+    border-radius: 10px;
+    border-color: cadetblue;
+}
+div > p {
+    text-align: center;
+}
+label{
+    display: block;
+    margin: 20px;
+}
+.form-contact {
+    padding: 40px;
+}
+input[type=text], input[type=email], textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    color: rgb(15, 15, 238);
+}
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    width: 100%;
+}
+button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 20px;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+  button:hover {
+    background-color: rgb(3, 9, 92);
+    cursor: pointer;
+  }
+a{
+    background-color: rgb(58, 17, 58);
+    animation: link 4s infinite;
+    animation-duration: 2s;
+    border-radius: 20px;
+}
+
+@keyframes link {
+    from { background-color: rgb(68, 10, 58);}
+    to { background-color: #4e0b9b;}
+    to {background-color: #84910a;}
+    to {color: chartreuse;}
+    to {color: rgb(4, 252, 4);}
+}
